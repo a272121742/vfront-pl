@@ -1,0 +1,9 @@
+{
+  "presets": [
+    "es2015",
+    "stage-3",
+    "vue"
+  ],
+  "comments": false,
+  "plugins": ["transform-runtime", "transform-object-rest-spread", "transform-vue-jsx"]
+}
