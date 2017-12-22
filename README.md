@@ -1,3 +1,8 @@
-# Storybook Demo
+# 如何运行
 
-This is a demo app to test VueJs integration with Storybook. Run `npm install` to sync Storybook module with the source code and run `npm run storybook` to start the Storybook.
+```javascript
+git clone https://github.com/a272121742/vfront-pl.git
+cd vfront-pl
+npm i
+npm run sb
+```
