@@ -37,7 +37,7 @@ storiesOf('解析', module)
 \`\`\`
 `;
 
-storiesOf('解析', module)
+storiesOf('Welcome/解析', module)
   .addDecorator(withReadme(md))
   .addDecorator(VueInfoAddon)
   .add('component info', () => ({

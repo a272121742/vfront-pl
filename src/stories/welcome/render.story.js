@@ -104,7 +104,7 @@ storiesOf('渲染', module)
 - JSX和template有时会加载不到已经组册到的组件；
 `;
 
-storiesOf('渲染', module)
+storiesOf('Welcome/渲染', module)
   .addDecorator(centered)
   .addDecorator(withReadme(md))
   .add('function render', () => ({

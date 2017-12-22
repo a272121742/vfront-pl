@@ -111,7 +111,7 @@ const firstArgAction= decorateAction([ args => {
 }]);
 // 用行为装饰器装饰一个新的记录仪
 const logFirstArg = firstArgAction('logFirst');
-storiesOf('行为', module)
+storiesOf('Welcome/行为', module)
   .addDecorator(centered)
   .addDecorator(withReadme(md))
   .add('action emit only', () => ({

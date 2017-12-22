@@ -292,7 +292,7 @@ storiesOf('旋钮', module)
 `;
 
 // 旋钮不要在全局申明，否则所有的故事都会有旋钮
-storiesOf('旋钮', module)
+storiesOf('Welcome/旋钮', module)
   .addDecorator(centered)
   .addDecorator(withReadme(md))
   .addDecorator(withKnobs)

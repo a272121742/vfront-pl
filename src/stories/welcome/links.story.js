@@ -51,7 +51,7 @@ storiesOf('链接', module)
   }));
 \`\`\`
 `;
-storiesOf('链接', module)
+storiesOf('Welcome/链接', module)
   .addDecorator(centered)
   .addDecorator(withReadme(md))
   .add('linkto story', () => ({
