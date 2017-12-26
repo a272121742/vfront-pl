@@ -1,3 +1,6 @@
+/**
+ * @old 此文件已弃用，详看markdown插件
+ */
 import Vue from 'vue';
 import Vuex from 'vuex';
 

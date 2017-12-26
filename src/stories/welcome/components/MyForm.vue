@@ -1,6 +1,8 @@
 <template>
   <Form ref="loginForm" :model="user">
-    加载Form.vue文件
+    <FormItem>
+    <h3>加载MyForm.vue文件</h3>
+    </FormItem>
     <FormItem prop="name">
       <Input v-model="user.name" placeholder="请输入用户名">
       </Input>
